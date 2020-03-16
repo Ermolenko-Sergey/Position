@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    background: url('../images/bg.jpg') no-repeat #3f0002;
+    background-size: 100%;
+}
+
+.social {
+    width: 50px;
+    position: fixed;
+    right: 0;
+    top: 262px;
+    z-index: 3;
+    background-color: red;
+}
+
+.social a {
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-color: #850409;
+    text-align: center;
+    line-height: 65px;
+    transition: background .2s linear;
+}
+
+.social a:last-child {
+    background-color: #98161b;
+}
+
+.social a i {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.social a:hover {
+    background-color: #3b5998;
+}
+
+.social a:last-child:hover {
+    background-color: #38A1F3;
+}
+
+header {
+    height: 40px;
+    background-color: #af2024;
+}
+
+section {
+    max-width: 960px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+article {
+    max-width: 710px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 2;
+}
+
+h1 {
+    background-color: #98161b;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Arvo', serif;;
+    padding: 28px 0 28px 18px;
+}
+
+section article div {
+    max-width: 565px;
+    margin: auto;
+    position: relative;
+    margin-bottom: -50px;
+}
+
+.player {
+    width: 565px;
+    height: 345px;
+    margin: auto;
+    margin-top: 62px;
+    background-color: #e7e7e7;
+    position: relative;
+}
+
+.play {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-left: 50px solid #98161b;
+    border-bottom: 25px solid transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 13px;
+    font-family: 'Arvo', serif;
+    color: #98161b;
+    margin-top: 30px;
+}
+
+h2 span {
+    font-size: 13px;
+    font-family: 'Arvo', serif;
+    color: #7d7d7d;
+}
+
+h2 span:after {
+    display: block;
+    content: "";
+    margin-top: 17px;
+    border-bottom: dotted 2px #98161b;
+    width: 42px;
+}
+
+p {
+    font-size: 13px;
+    font-family: 'Arvo', serif;
+    color: #98161b;
+    line-height: 18px;
+    margin-top: 16px;
+    padding-bottom: 130px;
+}
+
+/*.border{*/
+/*    height: 34px;*/
+/*    background-color: #3f0002;*/
+/*}*/
+
+footer {
+    height: 450px;
+    background-color: black;
+}
+
+/*footer:before{*/
+/*    display: block;*/
+/*    content: "";*/
+/*    height: 34px;*/
+/*    background-color: #3f0002;*/
+/*}*/
